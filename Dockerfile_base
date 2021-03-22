@@ -2,7 +2,7 @@
 # - Keep all files on same os / java version
 # - Perform basic setup
 # - Prevent re-pulling from docker hub, to avoid rate limiting.
-FROM openjdk:15-ea-jdk-alpine3.12
+FROM openjdk:16-ea-jdk-alpine3.12
 LABEL maintainer="reader@lucaskjaerozhang.com"
 WORKDIR /app
 RUN apk add --no-cache bash=5.0.17-r0
